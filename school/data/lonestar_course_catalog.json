@@ -1,0 +1,578 @@
+courses = [
+  {
+    "subject": "ENGL",
+    "course_number": 1301,
+    "title": "Composition and Rhetoric I",
+    "credit_hours": 3
+  },
+  {
+    "subject": "SPCH",
+    "course_number": 1311,
+    "title": "Introduction to Communication",
+  },
+  {
+    "subject": "SPCH",
+    "course_number": 1315,
+    "title": "Public Speaking",
+  },
+  {
+    "subject": "SPCH",
+    "course_number": 1318,
+    "title": "Interpersonal Communication",
+  },
+  {
+    "subject": "SPCH",
+    "course_number": 1321,
+    "title": "Business and Professional Communication"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 1314,
+    "title": "College Algebra"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 1316,
+    "title": "Trigonometry"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 1324,
+    "title": "Finite Mathematics"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 1325,
+    "title": "Elements of Calculus with Applications"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 1332,
+    "title": "College Mathematics for Liberal Arts"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 1342,
+    "title": "Statistics"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 1350,
+    "title": "Foundations of Mathematics"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 2318,
+    "title": "Linear Algebra"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 2412,
+    "title": "Precalculus"
+  },
+  {
+    "subject": "MATH",
+    "course_number": 2413,
+    "title": "Calculus I"
+  },
+  {
+    "subject": "BIOL",
+    "course_number": 1406,
+    "title": "Biology I for Science Majors"
+  },
+  {
+    "subject": "BIOL",
+    "course_number": 1409,
+    "title": "Biology II for Science Majors"
+  },
+  {
+    "subject": "BIOL",
+    "course_number": 1414,
+    "title": "Introduction to BioTechnology"
+  },
+  {
+    "subject": "BIOL",
+    "course_number": 2401,
+    "title": "Human Anatomy & Physiology I"
+  },
+  {
+    "subject": "BIOL",
+    "course_number": 2402,
+    "title": "Human Anatomy & Physiology II"
+  },
+  {
+    "subject": "BIOL",
+    "course_number": 2404,
+    "title": "Introduction to Anatomy and Physiology"
+  },
+  {
+    "subject": "BIOL",
+    "course_number": 2406,
+    "title": "Environmental Biology"
+  },
+  {
+    "subject": "BIOL",
+    "course_number": 2420,
+    "title": "Medical Microbiology"
+  },
+  {
+    "subject": "BIOL",
+    "course_number": 2421,
+    "title": "General Microbiology"
+  },
+  {
+    "subject": "CHEM",
+    "course_number": 1405,
+    "title": "Introductory Chemistry"
+  },
+  {
+    "subject": "CHEM",
+    "course_number": 1411,
+    "title": "General Chemistry I"
+  },
+  {
+    "subject": "CHEM",
+    "course_number": 1412,
+    "title": "General Chemistry II"
+  },
+  {
+    "subject": "CHEM",
+    "course_number": 2423,
+    "title": "Organic Chemistry I"
+  },
+  {
+    "subject": "CHEM",
+    "course_number": 2425,
+    "title": "Organic Chemistry II"
+  },
+  {
+    "subject": "ENVR",
+    "course_number": 1401,
+    "title": "Environmental Science I"
+  },
+  {
+    "subject": "ENVR",
+    "course_number": 1402,
+    "title": "Environmental Science II"
+  },
+  {
+    "subject": "GEOL",
+    "course_number": 1403,
+    "title": "Physical Geology"
+  },
+  {
+    "subject": "GEOL",
+    "course_number": 1404,
+    "title": "Historical Geology"
+  },
+  {
+    "subject": "GEOL",
+    "course_number": 1405,
+    "title": "Environmental Geology"
+  },
+  {
+    "subject": "GEOL",
+    "course_number": 1445,
+    "title": "Oceanography"
+  },
+  {
+    "subject": "PHYS",
+    "course_number": 1401,
+    "title": "General Physics I"
+  },
+  {
+    "subject": "PHYS",
+    "course_number": 1402,
+    "title": "General Physics II"
+  },
+  {
+    "subject": "PHYS",
+    "course_number": 1403,
+    "title": "Stellar Astronomy"
+  },
+  {
+    "subject": "PHYS",
+    "course_number": 1404,
+    "title": "Planetary Astronomy"
+  },
+  {
+    "subject": "PHYS",
+    "course_number": 1410,
+    "title": "Elementary Physics"
+  },
+  {
+    "subject": "PHYS",
+    "course_number": 2425,
+    "title": "Mechanics and Heat"
+  },
+  {
+    "subject": "PHYS",
+    "course_number": 2426,
+    "title": "Electricity, Magnetism, and Light"
+  },
+  {
+    "subject": "ARTS",
+    "course_number": 1301,
+    "title": "Art Appreciation"
+  },
+  {
+    "subject": "ARTS",
+    "course_number": 1303,
+    "title": "Art History - Prehistory to Gothic"
+  },
+  {
+    "subject": "ARTS",
+    "course_number": 1304,
+    "title": "Art History - Renaissance to Modern"
+  },
+  {
+    "subject": "DANC",
+    "course_number": 2303,
+    "title": "Dance Appreciation"
+  },
+  {
+    "subject": "DRAM",
+    "course_number": 1310,
+    "title": "Theatre Appreciation"
+  },
+  {
+    "subject": "DRAM",
+    "course_number": 2366,
+    "title": "Film Appreciation"
+  },
+  {
+    "subject": "MUSI",
+    "course_number": 1306,
+    "title": "Appreciating Music"
+  },
+  {
+    "subject": "MUSI",
+    "course_number": 1308,
+    "title": "Music Literature to 1827"
+  },
+  {
+    "subject": "MUSI",
+    "course_number": 1309,
+    "title": "Music Literature since 1827"
+  },
+  {
+    "subject": "MUSI",
+    "course_number": 1310,
+    "title": "American Music"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2322,
+    "title": "Survey of British Literature - Anglo Saxon through the 18th Century"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2323,
+    "title": "Survey of British Literature - Romantic through the Present"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2327,
+    "title": "Survey of American Literature - Exploration through the Civil War"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2328,
+    "title": "Survey of American Literature - Civil War through the Present"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2332,
+    "title": "Survey of World Literature - Ancient World through the 16th Century"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2333,
+    "title": "Survey of World Literature - 17th Century through the Present"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2341,
+    "title": "Forms of Literature"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2342,
+    "title": "Forms of Literature I"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2343,
+    "title": "Forms of Literature II"
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2351,
+    "title": "Mexican-American Literature"
+  },
+  {
+    "subject": "HUMA",
+    "course_number": 1301,
+    "title": "Introduction to Humanities I: Prehistory to Gothic"
+  },
+  {
+    "subject": "HUMA",
+    "course_number": 1302,
+    "title": "Introduction to Humanities II: Early Renaissance to the Present"
+  },
+  {
+    "subject": "PHIL",
+    "course_number": 1301,
+    "title": "Introduction to Philosophy"
+  },
+  {
+    "subject": "PHIL",
+    "course_number": 1304,
+    "title": "Introduction to World Religions"
+  },
+  {
+    "subject": "PHIL",
+    "course_number": 2306,
+    "title": "Introduction to Ethics"
+  },
+  {
+    "subject": "PHIL",
+    "course_number": 2307,
+    "title": "Introduction to Social and Political Philosophy"
+  },
+  {
+    "subject": "PHIL",
+    "course_number": 2316,
+    "title": "Classical Philosophy"
+  },
+  {
+    "subject": "PHIL",
+    "course_number": 2317,
+    "title": "17th and 18th Century Philosophy"
+  },
+  {
+    "subject": "PHIL",
+    "course_number": 2318,
+    "title": "19th and 20th Century Philosophy"
+  },
+  {
+    "subject": "PHIL",
+    "course_number": 2321,
+    "title": "Philosophy of Religion"
+  },
+  {
+    "subject": "ARAB",
+    "course_number": 2311,
+    "title": "Intermediate Arabic I"
+  },
+  {
+    "subject": "ARAB",
+    "course_number": 2312,
+    "title": "Intermediate Arabic II"
+  },
+  {
+    "subject": "CHIN",
+    "course_number": 2311,
+    "title": "Intermediate Chinese I"
+  },
+  {
+    "subject": "CHIN",
+    "course_number": 2312,
+    "title": "Intermediate Chinese II"
+  },
+  {
+    "subject": "FREN",
+    "course_number": 2311,
+    "title": "Intermediate French I"
+  },
+  {
+    "subject": "FREN",
+    "course_number": 2312,
+    "title": "Intermediate French II"
+  },
+  {
+    "subject": "GERM",
+    "course_number": 2311,
+    "title": "Intermediate German I"
+  },
+  {
+    "subject": "GERM",
+    "course_number": 2312,
+    "title": "Intermediate German II"
+  },
+  {
+    "subject": "ITAL",
+    "course_number": 2311,
+    "title": "Intermediate Italian I"
+  },
+  {
+    "subject": "ITAL",
+    "course_number": 2312,
+    "title": "Intermediate Italian II"
+  },
+  {
+    "subject": "JAPN",
+    "course_number": 2311,
+    "title": "Intermediate Japenese I"
+  },
+  {
+    "subject": "JAPN",
+    "course_number": 2312,
+    "title": "Intermediate Japenese II"
+  },
+  {
+    "subject": "PORT",
+    "course_number": 2311,
+    "title": "Intermediate Porteugese I"
+  },
+  {
+    "subject": "PORT",
+    "course_number": 2312,
+    "title": "Intermediate Porteugese II"
+  },
+  {
+    "subject": "SGNL",
+    "course_number": 2301,
+    "title": ""
+  },
+  {
+    "subject": "SGNL",
+    "course_number": 2302,
+    "title": ""
+  },
+  {
+    "subject": "SPAN",
+    "course_number": 2311,
+    "title": ""
+  },
+  {
+    "subject": "SPAN",
+    "course_number": 2312,
+    "title": ""
+  },
+  {
+    "subject": "SPAN",
+    "course_number": 2313,
+    "title": ""
+  },
+  {
+    "subject": "SPAN",
+    "course_number": 2315,
+    "title": ""
+  },
+  {
+    "subject": "HIST",
+    "course_number": 1301,
+    "title": ""
+  },
+  {
+    "subject": "HIST",
+    "course_number": 1302,
+    "title": ""
+  },
+  {
+    "subject": "HIST",
+    "course_number": 2301,
+    "title": ""
+  },
+  {
+    "subject": "GOVT",
+    "course_number": 2305,
+    "title": ""
+  },
+  {
+    "subject": "GOVT",
+    "course_number": 2306,
+    "title": ""
+  },
+  {
+    "subject": "ANTH",
+    "course_number": 2301,
+    "title": ""
+  },
+  {
+    "subject": "ANTH",
+    "course_number": 2351,
+    "title": ""
+  },
+  {
+    "subject": "CRIJ",
+    "course_number": 1301,
+    "title": ""
+  },
+  {
+    "subject": "CRIJ",
+    "course_number": 1307,
+    "title": ""
+  },
+  {
+    "subject": "ECON",
+    "course_number": 2301,
+    "title": ""
+  },
+  {
+    "subject": "ECON",
+    "course_number": 2302,
+    "title": ""
+  },
+  {
+    "subject": "GEOG",
+    "course_number": 1301,
+    "title": ""
+  },
+  {
+    "subject": "GEOG",
+    "course_number": 1303,
+    "title": ""
+  },
+  {
+    "subject": "HIST",
+    "course_number": 2311,
+    "title": ""
+  },
+  {
+    "subject": "HIST",
+    "course_number": 2312,
+    "title": ""
+  },
+  {
+    "subject": "HIST",
+    "course_number": 2321,
+    "title": ""
+  },
+  {
+    "subject": "HIST",
+    "course_number": 2322,
+    "title": ""
+  },
+  {
+    "subject": "PSYC",
+    "course_number": 2301,
+    "title": ""
+  },
+  {
+    "subject": "SOCI",
+    "course_number": 1301,
+    "title": ""
+  },
+  {
+    "subject": "SOCI",
+    "course_number": 1306,
+    "title": ""
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 1302,
+    "title": ""
+  },
+  {
+    "subject": "ENGL",
+    "course_number": 2311,
+    "title": ""
+  },
+  {
+    "subject": "PHED",
+    "course_number": 1164,
+    "title": ""
+  }
+]

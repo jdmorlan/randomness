@@ -1,0 +1,10 @@
+subjects = [
+  {
+    "title": "English",
+    "abbreviation": "ENGL"
+  },
+  {
+    "title": "Mathematics",
+    "abbreviation": "MATH"
+  }
+]

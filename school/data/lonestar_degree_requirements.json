@@ -1,0 +1,70 @@
+degrees = [
+  {
+    "title": "General Associates of Science",
+    "abbreviation": "AS",
+    "degree_type": "Associates",
+    "requirements": [
+      {
+        "core_component": "Communication",
+        "credit_hours": 6,
+        "courses": [
+          { "subject": "ENGL", "course_number": 1301, "required": true },
+          { "subject": "SPCH", "course_number": 1311, "required": false },
+          { "subject": "SPCH", "course_number": 1315, "required": false },
+          { "subject": "SPCH", "course_number": 1318, "required": false },
+          { "subject": "SPCH", "course_number": 1321, "required": false }
+        ]
+      },
+      {
+        "core_component": "Mathematics",
+        "credit_hours": 6,
+        "requirements": [
+          { "subject": "MATH", "course_number": 1314, "required": false },
+          { "subject": "MATH", "course_number": 1316, "required": false },
+          { "subject": "MATH", "course_number": 1324, "required": false },
+          { "subject": "MATH", "course_number": 1332, "required": false },
+          { "subject": "MATH", "course_number": 1342, "required": false },
+          { "subject": "MATH", "course_number": 1350, "required": false },
+          { "subject": "MATH", "course_number": 2318, "required": false },
+          { "subject": "MATH", "course_number": 2412, "required": false },
+          { "subject": "MATH", "course_number": 2413, "required": false }
+        ]
+      },
+      {
+        "core_component": "Life and Physical Sciences",
+        "credit_hours": 16,
+        "requirements": [
+          { "subject": "BIOL", "course_number": 1406, "required": false },
+          { "subject": "BIOL", "course_number": 1408, "required": false },
+          { "subject": "BIOL", "course_number": 1407, "required": false },
+          { "subject": "BIOL", "course_number": 1409, "required": false },
+          { "subject": "BIOL", "course_number": 1414, "required": false },
+          { "subject": "BIOL", "course_number": 2401, "required": false },
+          { "subject": "BIOL", "course_number": 2402, "required": false },
+          { "subject": "BIOL", "course_number": 2404, "required": false },
+          { "subject": "BIOL", "course_number": 2406, "required": false },
+          { "subject": "BIOL", "course_number": 2420, "required": false },
+          { "subject": "BIOL", "course_number": 2421, "required": false },
+          { "subject": "CHEM", "course_number": 1405, "required": false },
+          { "subject": "CHEM", "course_number": 1411, "required": false },
+          { "subject": "CHEM", "course_number": 1412, "required": false },
+          { "subject": "CHEM", "course_number": 2423, "required": false },
+          { "subject": "CHEM", "course_number": 2425, "required": false },
+          { "subject": "ENVR", "course_number": 1401, "required": false },
+          { "subject": "ENVR", "course_number": 1402, "required": false },
+          { "subject": "GEOL", "course_number": 1403, "required": false },
+          { "subject": "GEOL", "course_number": 1404, "required": false },
+          { "subject": "GEOL", "course_number": 1405, "required": false },
+          { "subject": "GEOL", "course_number": 1445, "required": false },
+          { "subject": "PHYS", "course_number": 1401, "required": false },
+          { "subject": "PHYS", "course_number": 1402, "required": false },
+          { "subject": "PHYS", "course_number": 1403, "required": false },
+          { "subject": "PHYS", "course_number": 1404, "required": false },
+          { "subject": "PHYS", "course_number": 1410, "required": false },
+          { "subject": "PHYS", "course_number": 2425, "required": false },
+          { "subject": "PHYS", "course_number": 2426, "required": false }
+        ]
+      }
+    ]
+  }
+]

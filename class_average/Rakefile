@@ -1,0 +1,12 @@
+require 'sass'
+require 'sprockets'
+
+
+
+task :build do
+  environment = Sprockets::Environment.new
+  environment.append_path('./coffeescript')
+  environment.append_path('./sass')
+
+  
+end
