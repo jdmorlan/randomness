@@ -1,6 +1,6 @@
 require 'octokit'
 
-client = Octokit::Client.new(:login => 'jdmorlan', :password => 'DanRocks2010')
+client = Octokit::Client.new(:login => 'jdmorlan', :password => '*********')
 
 
 repo = client.repository('jdmorlan/dynamo')
